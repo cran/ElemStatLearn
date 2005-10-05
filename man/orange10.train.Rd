@@ -1,0 +1,42 @@
+\name{orange10.train}
+\alias{orange10.train}
+\docType{data}
+\title{ Simulated Orange Data}
+\description{
+  These simulation data are described on the revised page 384-5 of the
+book. See the errata file for a revised version if your book is not
+the fourth or later printing.
+
+There are 50 x four datasets - training and test data for the four
+dimensional problem, and training and test data for the 10
+dimensional problem.
+}
+\usage{data(orange10.train)}
+\format{
+  The format is:
+List of 50
+ \$ 1 :`data.frame':	100 obs. of  12 variables:
+  ..\$ class: int [1:100] -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 ...
+  ..\$ F1   : num [1:100] -3.063  0.488 -2.791  2.010 -0.961 ...
+  ..\$ F2   : num [1:100] -1.091 -1.025  0.180  0.875 -2.388 ...
+  ..\$ F3   : num [1:100]  0.0466 -1.5788 -1.5160  1.8155 -1.7695 ...
+  ..\$ F4   : num [1:100] -1.794 -2.314 -1.013 -2.374 -0.857 ...
+  ..\$ F5   : num [1:100]  1.2722  2.0690 -0.0983 -2.2647 -0.7894 ...
+  ..\$ F6   : num [1:100]  1.393 -0.398 -0.930 -1.687 -1.121 ...
+  ..\$ F7   : num [1:100] -2.433  0.964 -0.387  0.851 -1.163 ...
+  ..\$ F8   : num [1:100]  0.610 -0.621 -0.727 -0.319  1.914 ...
+  ..\$ F9   : num [1:100]  0.904 -1.129 -0.377 -0.665 -0.691 ...
+  ..\$ F10  : num [1:100]  1.591  0.533  0.837  1.285 -1.056 ...
+  ..\$ f    : Factor w/ 50 levels "1","2","3","4",..: 1 1 1 1 1 1 1 1 1 1 ...
+ ... and then 49 similar ones.
+}
+\details{
+  
+}
+\source{
+  
+}
+\references{
+  
+}
+\keyword{datasets}
