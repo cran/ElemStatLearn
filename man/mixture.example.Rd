@@ -5,7 +5,7 @@
 \title{ Mixture Example  }
 \description{
   This is a simulated mixture example with 200 instances and two 
-  classes.
+  classes. 100 members in each class.
 }
 \usage{data(mixture.example)}
 \format{
@@ -86,7 +86,8 @@ x <- mixture.example$x
 
  mod1 <- knn(x, xnew, k=1, cl=g, prob=TRUE)
  prob <- attr(mod1, "prob")
- prob <- ifelse( mod1=="1", prob, 1-prob) # prob now is voting fraction for "red"
+ prob <- ifelse( mod1=="1", prob, 1-prob) # prob now is voting 
+                                          # fraction for "red"
  prob1 <- matrix(prob, length(px1), length(px2) )
  contour(px1, px2, prob1, level=0.5, labels="", xlab="x1", ylab="x2", main=
                 "1-nearest neighbour")
@@ -125,14 +126,16 @@ x <- mixture.example$x
     print(cbind(misclass.train, misclass.test))
 
 # Using package mclust
-if(require(mclust)){
+
+ if(require(mclust)){
  x <- mixture.example$x
  g <- mixture.example$y
  xnew <- mixture.example$xnew
  px1 <- mixture.example$px1
  px2 <- mixture.example$px2
 
- mix.mclust <- mclustDA(x, g, xnew, G=1:20, verbose=TRUE)
+ mix.mclust <- mclustDA(x, g, xnew, G=1:6, verbose=TRUE)
+ mix.mclust
 }
 }
 \keyword{datasets}

@@ -129,6 +129,6 @@ i.e. unsolicited commercial e-mail.
   \url{http://www.ics.uci.edu/~mlearn/MLRepository.html}
 }
 \examples{
-str(spam)
+head(str(spam))
 }
 \keyword{datasets}

@@ -305,6 +305,6 @@ column labelled "g", and a column labelled "speaker" identifying the
 diffferent speakers.
 }
 \examples{
-str(phoneme)
+ head(str(phoneme))
 }
 \keyword{datasets}
