@@ -43,4 +43,7 @@
 \references{
   
 }
+\examples{
+str(waveform.train)
+}
 \keyword{datasets}

@@ -42,5 +42,6 @@
 }
 \examples{
 str(galaxy) 
+summary(galaxy)
 }
 \keyword{datasets}

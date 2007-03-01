@@ -108,7 +108,7 @@ for data mining applications.
 }
 \details{
   The goal is to predict the Anual Income of Household from the other 13
-demographics  attributes.
+  demographics  attributes.
 
 Number of instances: 8993.
 
@@ -118,8 +118,8 @@ missing.
 }
 \source{
   Source: Impact Resources, Inc., Columbus, OH (1987). 
-A total of N=9409 questionnaires containg 502 questions were 
-filled out by shopping mall customers in the San Francisco Bay area. 
+  A total of N=9409 questionnaires containg 502 questions were 
+  filled out by shopping mall customers in the San Francisco Bay area. 
 }
 \examples{
 str(marketing)

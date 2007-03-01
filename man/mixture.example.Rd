@@ -125,9 +125,9 @@ x <- mixture.example$x
     }
     print(cbind(misclass.train, misclass.test))
 
-# Using package mclust
+# Using package mclust02
 
- if(require(mclust)){
+ if(require(mclust02)){
  x <- mixture.example$x
  g <- mixture.example$y
  xnew <- mixture.example$xnew

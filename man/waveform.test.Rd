@@ -4,7 +4,7 @@
 \title{ Simulated Waveform Data  }
 \description{
    This is a simulated three-class problem with 21 variables, and 
-  considered to be a difficult pattern recognition problem. 
+   considered to be a difficult pattern recognition problem. 
 }
 \usage{data(waveform.test)}
 \format{
@@ -42,5 +42,8 @@
 }
 \references{
   
+}
+\examples{
+str(waveform.test)
 }
 \keyword{datasets}

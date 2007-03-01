@@ -4,8 +4,8 @@
 \title{ Vowel Recognition (Deterding data)}
 \description{
   Speaker independent recognition of the eleven steady state vowels
-of British English using a specified training set of lpc derived log area
-ratios.
+  of British English using a specified training set of lpc derived log area
+  ratios.
 }
 \usage{data(vowel.train)}
 \format{

@@ -5,7 +5,7 @@
   Function to do simple ridge regression.
 }
 \usage{
-simple.ridge(x, y, lambda = 1, df, ...)
+   simple.ridge(x, y, lambda = 1, df, ...)
 }
 \arguments{
   \item{x}{ predictor matrix, NA's not allowed. Should not include a column of 1's. }

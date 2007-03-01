@@ -4,12 +4,12 @@
 \title{ Simulated Orange Data}
 \description{
   These simulation data are described on the revised page 384-5 of the
-book. See the errata file for a revised version if your book is not
-the fourth or later printing.
+  book. See the errata file for a revised version if your book is not
+  the fourth or later printing.
 
-There are 50 x four datasets - training and test data for the four
-dimensional problem, and training and test data for the 10
-dimensional problem.
+  There are 50 x four datasets - training and test data for the four
+  dimensional problem, and training and test data for the 10
+  dimensional problem.
 }
 \usage{data(orange10.train)}
 \format{
@@ -38,5 +38,8 @@ List of 50
 }
 \references{
   
+}
+\examples{
+str(orange10.train)
 }
 \keyword{datasets}

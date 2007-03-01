@@ -4,7 +4,7 @@
 %## Example "Country dissimilarities" in book page 469
 \title{ Country Dissimilarities  }
 \description{
-  Political science students were asked to give p[airwise dissimilarities 
+  Political science students were asked to give pairwise dissimilarities 
   for 12 countries.
 }
 \usage{data(countries)}
