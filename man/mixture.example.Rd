@@ -95,11 +95,11 @@ x <- mixture.example$x
  points(x, col=ifelse(g==1, "red", "green"))
 
  # Reproducing figure 2.4, page 17 of the book:
- # Los datos no contiene una muestra test, entonces nosotros lo generamos, 
- # usando la descripción del "oraculo" página 17 del texto: Los centros 
- # estan en el componente means de mixture.example, con green(0) first, 
- # despues red(1). Para una muestra test de tamaño 10000 simulamos 
- # 5000 observaciones de cada clase.
+ # The data do not contain a test sample, so we make one,
+ # using the description of the oracle page 17 of the book: The centers 
+ # is in the means component of mixture.example, with green(0) first, 
+ # so red(1).  For a test sample of size 10000 we simulate
+ # 5000 observations of each class.
 
  library(MASS)
     set.seed(123)
