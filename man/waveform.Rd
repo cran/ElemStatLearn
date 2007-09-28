@@ -18,7 +18,6 @@ waveform(n)
   and a vector 
   \code{y} with class labels.
 }
-\references{  }
 \author{ Kjetil Halvorsen }
-\seealso{ \code{\link{waveform.train}} and \code{\link{waveform.test}}.}
+\seealso{ \link{waveform.train} and \link{waveform.test}.}
 \keyword{ datagen }

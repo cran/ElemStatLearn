@@ -34,15 +34,6 @@
     \item{\code{x.21}}{a numeric vector}
   }
 }
-\details{
-  
-}
-\source{
-  
-}
-\references{
-  
-}
 \examples{
 str(waveform.test)
 }

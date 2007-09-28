@@ -15,7 +15,7 @@
   \item{\dots}{ Presently not used}
 }
 \details{
-  Pricipal advantage with this compared to other implemantations 
+  Principal advantage with this compared to other implementations 
   of ridge regression in \R is that we can do the calculations 
   for multiple degrees of freedom at once. Ridging is not applied to the intercept.
 }
@@ -23,12 +23,12 @@
   List with components:
   \item{beta0 }{intercept}
   \item{beta }{matrix of coefficients. One column for each lambda}
-  \item{lambda} {lambda used}
+  \item{lambda}{lambda used}
   \item{df}{df used}
 }
 \author{ Kjetil B. Halvorsen }
 
 \examples{
-# See examples for \code{\link{prostate}}.
+# See examples for \link{prostate}.
 }
 \keyword{ regression }

@@ -30,14 +30,7 @@ List of 50
   ..\$ f    : Factor w/ 50 levels "1","2","3","4",..: 1 1 1 1 1 1 1 1 1 1 ...
  ... and then 49 similar ones.
 }
-\details{
-  
-}
-\source{
-  
-}
-\references{
-  
+\source{ Data simulated for the book. 
 }
 \examples{
 str(orange10.train)

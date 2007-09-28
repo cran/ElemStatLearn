@@ -29,11 +29,10 @@
   "training set" and which 30 as the test set, as described on page 48
   in the book.
 }
-\source{
-  
-}
-\references{
-  
+\source{ Stamey, T., Kabalin, J., McNeal, J., Johnstone, I.,
+    Freiha, F., Redwine, E. and Yang, N (1989) Prostate specific antigen
+    in the diagnosis and treatment of adenocarcinoma of the prostate
+    II. Radical prostatectomy treted patients, Journall of Urology 16: 1076--1083.
 }
 \examples{
 if(interactive())par(ask=TRUE)
@@ -43,7 +42,7 @@ pairs( prostate[,1:9], col="violet" )
 train <- subset( prostate, train==TRUE )[,1:9]
 test  <- subset( prostate, train=FALSE )[,1:9]
 #
-library(leaps)
+if( require(leaps)) {
 # The book (page 56) uses only train subset, so we the same:
 prostate.leaps <- regsubsets( lpsa ~ . , data=train, nbest=70, #all!
                      really.big=TRUE )
@@ -64,7 +63,8 @@ prostate.models.best.rss <- c(
 plot( 0:8, prostate.models.best.rss, ylim=c(0, 100), 
       type="b", xlab="subset size", ylab="Residual Sum Square", 
       col="red2" )
-points( prostate.models.size, prostate.models.rss, pch=17, col="brown", cex=0.7 )
+points( prostate.models.size, prostate.models.rss, pch=17, col="brown",cex=0.7 )
+}
 # For a better plot, should remove the best for each size from last call!
 # Now with ridge regression: 
 # Ridge regression in R is multiply implemented, at least:
@@ -94,7 +94,7 @@ matplot( prostate.ridge$df, t(prostate.ridge$beta), type="b",
         col="blue", pch=17, ylab="coefficients" )
 # Calculations for the lasso:
 #
-library(lasso2)
+if(require(lasso2))  {
 prostate.lasso <- l1ce( lpsa ~ ., data=train, trace=TRUE, sweep.out=~1,  
                      bound=seq(0,1,by=0.1) )
 prostate.lasso.coef <- sapply(prostate.lasso, function(x) x$coef)
@@ -102,14 +102,16 @@ colnames(prostate.lasso.coef) <- seq( 0,1,by=0.1 )
 matplot( seq(0,1,by=0.1), t(prostate.lasso.coef[-1,]), type="b", 
         xlab="shrinkage factor", ylab="coefficients", 
         xlim=c(0, 1.2), col="blue", pch=17 )
+}
 #
 # lasso with lars:
-library(lars)
+if (require(lars)) {
 #
 prostate.lasso.lars <- lars( as.matrix(train[,1:8]), train[,9], 
          type="lasso", trace=TRUE )
 cv.lars( as.matrix(train[,1:8]), train[,9], 
          type="lasso", trace=TRUE, K=10 )
+}
 #
 # CV (cross-validation) using package boot:
 #

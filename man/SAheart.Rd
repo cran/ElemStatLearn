@@ -34,8 +34,9 @@
   dataset, described in  Rousseauw et al, 1983, South African Medical
  Journal. 
 }
-\source{
-  
+\source{ Rousseauw, J., du Plessis, J., Benade, A., Jordaan, P., Kotze,
+  J. and Ferreira, J. (1983). Coronary risk factor screening in three
+  rural communities, South African Medical Journal 64: 430--436.
 }
 \examples{
 str(SAheart) 

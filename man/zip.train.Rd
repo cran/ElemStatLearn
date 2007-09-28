@@ -38,12 +38,6 @@ The test set is notoriously "difficult", and a 2.5% error rate is
 excellent. These data were kindly made available by the neural network
 group at AT&T research labs (thanks to Yann Le Cunn).
 }
-\source{
- 
-}
-\references{
-  
-}
 \examples{
 findRows <- function(zip, n) {
  # Find  n (random) rows with zip representing 0,1,2,...,9

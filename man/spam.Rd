@@ -115,7 +115,7 @@ i.e. 100 * (number of CHAR occurences) / total characters in e-mail
 = sum of length of uninterrupted sequences of capital letters
 = total number of capital letters in the e-mail
 
-1 nominal {0,1} class attribute of type spam
+1 nominal \{0,1\} class attribute of type spam
 = denotes whether the e-mail was considered spam (1) or not (0), 
 i.e. unsolicited commercial e-mail.  
 }

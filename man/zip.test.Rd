@@ -38,10 +38,4 @@ The test set is notoriously "difficult", and a 2.5% error rate is
 excellent. These data were kindly made available by the neural network
 group at AT&T research labs (thanks to Yann Le Cunn).
 }
-\source{
-  
-}
-\references{
-  
-}
 \keyword{datasets}

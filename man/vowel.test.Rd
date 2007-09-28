@@ -25,7 +25,7 @@
   }
 }
 \details{
-  See the Details section of the help file for \code{\link{vowel.train}}.
+  See the Details section of the help file for \link{vowel.train}.
 }
 \source{
   David Deterding  (data and non-connectionist analysis)

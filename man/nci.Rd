@@ -18,6 +18,7 @@
   \url{http://genome-www.stanford.edu/nci60/}
 }
 \examples{
-str(nci) 
+str(nci)
+summary(nci)
 }
 \keyword{datasets}

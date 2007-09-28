@@ -4,7 +4,7 @@ Title:         Data sets, functions and examples from the book:
                "The Elements of Statistical Learning, Data Mining, 
                Inference, and Prediction" by Trevor Hastie, 
                Robert Tibshirani and Jerome Friedman.
-Version:       0.1-4
+Version:       0.1-6
 Author:        Material from the book's webpage, R port and packaging
                by Kjetil Halvorsen
 Description:   Useful when reading the book above mentioned, in the 
@@ -16,4 +16,4 @@ LazyData:      yes
 Maintainer:    Kjetil Halvorsen <kjetil1001@gmail.com>
 URL:           
 License:       GPL (>= 2)
-Packaged: Fri Sep 28 19:52:32 2007; halvorsen
+Packaged: Thu Feb 12 17:38:21 2009; hornik
