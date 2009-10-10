@@ -1,19 +1,21 @@
-Package:       ElemStatLearn
-Date:          2007-09-28
-Title:         Data sets, functions and examples from the book:
-               "The Elements of Statistical Learning, Data Mining, 
-               Inference, and Prediction" by Trevor Hastie, 
-               Robert Tibshirani and Jerome Friedman.
-Version:       0.1-6
-Author:        Material from the book's webpage, R port and packaging
-               by Kjetil Halvorsen
-Description:   Useful when reading the book above mentioned, in the 
-               documentation referred to as `the book'.
-Depends:       R (>= 2.4.0), stats
-Suggests:      gam, splines, MASS, class, mclust02, leaps, mda, lasso2, 
-               lars, boot
-LazyData:      yes
-Maintainer:    Kjetil Halvorsen <kjetil1001@gmail.com>
-URL:           
-License:       GPL (>= 2)
-Packaged: Thu Feb 12 17:38:21 2009; hornik
+Package: ElemStatLearn
+Date: 2009-10-10
+Title: Data sets, functions and examples from the book: "The Elements
+        of Statistical Learning, Data Mining, Inference, and
+        Prediction" by Trevor Hastie, Robert Tibshirani and Jerome
+        Friedman.
+Version: 0.1-7
+Author: Material from the book's webpage, R port and packaging by
+        Kjetil Halvorsen
+Description: Useful when reading the book above mentioned, in the
+        documentation referred to as `the book'.
+Depends: R (>= 2.4.0), stats
+Suggests: gam, splines, MASS, class, mclust02, leaps, mda, lasso2,
+        lars, boot
+LazyData: yes
+Maintainer: Kjetil Halvorsen <kjetil1001@gmail.com>
+URL:
+License: GPL (>= 2)
+Packaged: 2009-10-19 23:10:28 UTC; root
+Repository: CRAN
+Date/Publication: 2009-10-22 19:03:31

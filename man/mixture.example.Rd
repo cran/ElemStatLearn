@@ -38,6 +38,7 @@ if(interactive())par(ask=TRUE)
 x <- mixture.example$x
  g <- mixture.example$y
  x.mod <- lm( g ~ x)
+ # Figure 2.1:
  plot(x, col=ifelse(g==1,"red", "green"), xlab="x1", ylab="x2")
  coef(x.mod)
  abline( (0.5-coef(x.mod)[1])/coef(x.mod)[3], -coef(x.mod)[2]/coef(x.mod)[3])
@@ -57,7 +58,7 @@ x <- mixture.example$x
 
  mod15 <- knn(x, xnew, g, k=15, prob=TRUE)
  summary(mod15)
-  
+  #Figure 2.2:
  plot(x, col=ifelse(g==1,"red", "green"),xlab="x1", ylab="x2")
 
  str(mod15)
@@ -82,7 +83,7 @@ x <- mixture.example$x
  # Misclassification rate for knn(, k=15)
 
 
- # Then we want the plot for knn with k=1:
+ # Then we want the plot for knn with k=1: (Figure 2.3)
 
  mod1 <- knn(x, xnew, k=1, cl=g, prob=TRUE)
  prob <- attr(mod1, "prob")
@@ -125,7 +126,9 @@ x <- mixture.example$x
     }
     print(cbind(misclass.train, misclass.test))
 
-# Using package mclust02
+# Using package mclust02  # Note that this package is no longer on CRAN,
+#                           but must be searched in the archives.
+  
 
  if(require(mclust02)){
  x <- mixture.example$x
@@ -136,6 +139,20 @@ x <- mixture.example$x
 
  mix.mclust <- mclustDA(x, g, xnew, G=1:6, verbose=TRUE)
  mix.mclust
-}
+} # end require (mclust02)
+
+# Figure 2.4
+plot(misclass.train,xlab="Number of NN",ylab="Test error",type="n",xaxt="n")
+axis(1, 1:length(ks), as.character(ks))
+lines(misclass.test,type="b",col='blue',pch=20)
+lines(misclass.train,type="b",col='red',pch=20)
+legend("bottomright",lty=1,col=c("red","blue"),legend = c("train ", "test "))
+
+#Figure 2.5
+prob<-mixture.example$prob
+prob.bayes <- matrix(prob, length(px1), length(px2))
+contour(px1, px2, prob.bayes, levels=0.5, labels="", xlab="x1", ylab="x2", main="Bayes decision boundary")
+points(x, col=ifelse(g==1, "red", "green"))
+
 }
 \keyword{datasets}
