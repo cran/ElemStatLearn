@@ -29,6 +29,9 @@
   "training set" and which 30 as the test set, as described on page 48
   in the book.
 }
+\note{There was an error in this dataset in earlier versions of the
+  package, as indicated in a footnote on page 3 of the second edition of
+the book. As of version 2012.04-0 this was corrected.}
 \source{ Stamey, T., Kabalin, J., McNeal, J., Johnstone, I.,
     Freiha, F., Redwine, E. and Yang, N (1989) Prostate specific antigen
     in the diagnosis and treatment of adenocarcinoma of the prostate
@@ -128,3 +131,6 @@ summary( prostate.glm )
 #
 }
 \keyword{datasets}
+
+
+

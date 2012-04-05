@@ -129,7 +129,7 @@ x <- mixture.example$x
 # Using package mclust02  # Note that this package is no longer on CRAN,
 #                           but must be searched in the archives.
   
-
+\dontrun{
  if(require(mclust02)){
  x <- mixture.example$x
  g <- mixture.example$y
@@ -140,6 +140,7 @@ x <- mixture.example$x
  mix.mclust <- mclustDA(x, g, xnew, G=1:6, verbose=TRUE)
  mix.mclust
 } # end require (mclust02)
+} # end \dontrun
 
 # Figure 2.4
 plot(misclass.train,xlab="Number of NN",ylab="Test error",type="n",xaxt="n")
@@ -151,8 +152,10 @@ legend("bottomright",lty=1,col=c("red","blue"),legend = c("train ", "test "))
 #Figure 2.5
 prob<-mixture.example$prob
 prob.bayes <- matrix(prob, length(px1), length(px2))
-contour(px1, px2, prob.bayes, levels=0.5, labels="", xlab="x1", ylab="x2", main="Bayes decision boundary")
-points(x, col=ifelse(g==1, "red", "green"))
+contour(px1, px2, prob.bayes, levels=0.5, labels="", xlab="x1",
+ylab="x2",
+            main="Bayes decision boundary")
+            points(x, col=ifelse(g==1, "red", "green"))
 
 }
 \keyword{datasets}

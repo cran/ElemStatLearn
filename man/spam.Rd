@@ -130,5 +130,29 @@ i.e. unsolicited commercial e-mail.
 }
 \examples{
 head(str(spam))
+if(require(prim)){ # This uses too much time!
+   X <- spam[,1:57]
+   Y <- ifelse(spam$spam=="spam", 1, 0)
+   spam.prim1 <- prim.box(X, Y, threshold.type=1,  verbose=TRUE)
+   summary(spam.prim1)
+} # use of prim package.
+# The following example uses too much time and must be put inside a
+# dontrun construction. Also summary(spam.earth) killed the R process
+# ...
+\dontrun{
+if(require(earth)){
+   spam.earth <- earth(spam[, 1:57], spam$spam,
+         glm=list(family=binomial),
+         trace=1, keepxy=TRUE, degree=1, nfold=10)
+   summary(spam.earth)
+} # use of earth package
+} # end of dontrun block
+if(require(mda)){
+ spam.mars <- mars(spam[, 1:57],
+                   ifelse(spam$spam=="spam", 1, 0),
+                   degree=1, nk=50, trace.mars=TRUE)
+ summary(spam.mars)
+} # end require(mda) block
 }
 \keyword{datasets}
+
