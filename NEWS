@@ -5,6 +5,12 @@ This file NEWS introduced with version ElemStatLearn_2012.04-0
    File NEWS introduced
    error in dataset prostata corrected
    better compression introduced
+2015.6.26:  
+   cLenup, bugfixes (documentation/code mismatches): 
+   A few changes in coding (not content) of marketing.Rd
+   Examples taking too much time in spam.Rd moved into \dontrun{}
+
+
 
 
 

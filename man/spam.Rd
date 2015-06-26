@@ -130,12 +130,14 @@ i.e. unsolicited commercial e-mail.
 }
 \examples{
 head(str(spam))
+\dontrun{
 if(require(prim)){ # This uses too much time!
    X <- spam[,1:57]
    Y <- ifelse(spam$spam=="spam", 1, 0)
    spam.prim1 <- prim.box(X, Y, threshold.type=1,  verbose=TRUE)
    summary(spam.prim1)
 } # use of prim package.
+}
 # The following example uses too much time and must be put inside a
 # dontrun construction. Also summary(spam.earth) killed the R process
 # ...

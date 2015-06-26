@@ -1,6 +1,6 @@
-e1f01996c6d7c2b4b674536f7541bcdd *DESCRIPTION
+648a75502eb7c44a4d803cfe86a4ac4c *DESCRIPTION
 32b5a8b410ca7ff8cb20e8225a985ebc *NAMESPACE
-1e13c52b6c177d2908c38996320c5daa *NEWS
+042fa0a84121b006dc8e4daea94307c3 *NEWS
 1c3dc2c73355a3993a93cf908318a1e7 *R/simple.ridge.R
 94baa42d02b4ea79042192a91ab81a13 *R/waveform.R
 4127779fd1e8e33da04d53d6fc1dd77a *R/zip2image.R
@@ -30,7 +30,7 @@ e8deaa5b386bafed50970da2b73a2a39 *data/vowel.train.RData
 adf173012999046debccd18f4476a6af *man/bone.Rd
 a28f9854fa7efd86d44510be09df72d2 *man/countries.Rd
 e988d09c90f9e9d7752fc1e6517b556a *man/galaxy.Rd
-b235e524c51ebf0209622d840e62c95f *man/marketing.Rd
+e1ccdef3b301d7980abdad586bf66949 *man/marketing.Rd
 739d92ab4851cecfa9b404c1307f8b9e *man/mixture.example.Rd
 84b508d6a8f382b14f6a96da5197c3dc *man/nci.Rd
 87ce1dacbe9b521cac53d8a635829ff5 *man/orange10.test.Rd
@@ -41,7 +41,7 @@ cc0de3417bd76caf74f8c1f2259f3271 *man/orange4.train.Rd
 a84dbbd7ae35a72c84a812665cfe297e *man/phoneme.Rd
 179f7b2cf480f0f1c0f2b873db8946ba *man/prostate.Rd
 42831c053f63af44278baebb80a8bea2 *man/simple.ridge.Rd
-5ae3e1952f5ab1b0352c61d394eacbbd *man/spam.Rd
+dd4e8ebf8d80856bbf5d84846128671e *man/spam.Rd
 51e4b692978437e5c1db68b5dc1e8e4c *man/vowel.test.Rd
 a9f89fb741a0fcc9b49089a4456ec5bf *man/vowel.train.Rd
 524de43f014c80244c6f3808a1560cc8 *man/waveform.Rd

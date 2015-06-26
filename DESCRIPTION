@@ -1,12 +1,12 @@
 Package: ElemStatLearn
-Date: 2012-04-05
-Title: Data sets, functions and examples from the book: "The Elements
+Date: 2015-06-26
+Title: Data Sets, Functions and Examples from the Book: "The Elements
         of Statistical Learning, Data Mining, Inference, and
         Prediction" by Trevor Hastie, Robert Tibshirani and Jerome
-        Friedman.
-Version: 2012.04-0
+        Friedman
+Version: 2015.6.26
 Author: Material from the book's webpage, R port and packaging by
-        Kjetil Halvorsen
+        Kjetil B Halvorsen
 Description: Useful when reading the book above mentioned, in the
         documentation referred to as `the book'.
 Depends: R (>= 2.10.0), stats
@@ -14,9 +14,10 @@ Suggests: gam, splines, MASS, class, leaps, mda, lasso2, lars, boot,
         prim, earth
 LazyData: yes
 LazyDataCompression: xz
-Maintainer: Kjetil Halvorsen <kjetil1001@gmail.com>
+Maintainer: Kjetil B Halvorsen <kjetil1001@gmail.com>
 URL: http://www-stat.stanford.edu/~tibs/ElemStatLearn/
 License: GPL (>= 2)
-Packaged: 2012-04-04 21:40:10 UTC; kjetil
+NeedsCompilation: no
+Packaged: 2015-06-27 10:03:50 UTC; kjetil
 Repository: CRAN
-Date/Publication: 2012-04-10 18:01:19
+Date/Publication: 2015-06-27 13:27:36

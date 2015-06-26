@@ -58,7 +58,7 @@ for data mining applications.
              3. Four to six years
              4. Seven to ten years
              5. More than ten years}
-    \item{Dual\_Income}{DUAL INCOMES (IF MARRIED)
+    \item{Dual_Income}{DUAL INCOMES (IF MARRIED)
              1. Not Married
              2. Yes
              3. No}
@@ -87,7 +87,7 @@ for data mining applications.
              1. Own
              2. Rent
              3. Live with Parents/Family}
-    \item{Home\_Type}{1. House
+    \item{Home_Type}{1. House
              2. Condominium
              3. Apartment
              4. Mobile Home
