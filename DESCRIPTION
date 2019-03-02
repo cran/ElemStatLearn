@@ -4,7 +4,7 @@ Title: Data Sets, Functions and Examples from the Book: "The Elements
         of Statistical Learning, Data Mining, Inference, and
         Prediction" by Trevor Hastie, Robert Tibshirani and Jerome
         Friedman
-Version: 2015.6.26
+Version: 2015.6.26.1
 Author: Material from the book's webpage, R port and packaging by
         Kjetil B Halvorsen
 Description: Useful when reading the book above mentioned, in the
@@ -18,6 +18,6 @@ Maintainer: Kjetil B Halvorsen <kjetil1001@gmail.com>
 URL: http://www-stat.stanford.edu/~tibs/ElemStatLearn/
 License: GPL (>= 2)
 NeedsCompilation: no
-Packaged: 2015-06-27 10:03:50 UTC; kjetil
+Packaged: 2019-03-02 12:00:43 UTC; ripley
 Repository: CRAN
-Date/Publication: 2015-06-27 13:27:36
+Date/Publication: 2019-03-02 12:33:53 UTC

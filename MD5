@@ -1,4 +1,4 @@
-648a75502eb7c44a4d803cfe86a4ac4c *DESCRIPTION
+9a32b17d07c7bf3a01460914a3efb583 *DESCRIPTION
 32b5a8b410ca7ff8cb20e8225a985ebc *NAMESPACE
 042fa0a84121b006dc8e4daea94307c3 *NEWS
 1c3dc2c73355a3993a93cf908318a1e7 *R/simple.ridge.R
@@ -7,7 +7,7 @@
 0f98c922039bef3204ccdfff9d918696 *data/SAheart.RData
 a3684da3451d34085b9caff35b306806 *data/bone.RData
 ab0048df8c6d71289dcff3f5e25c66f0 *data/countries.RData
-a59c69581d5f830d4c19188e304c1a66 *data/datalist
+b18247d9d27e7c012908e73b71499df6 *data/datalist
 7151c268c32f53072f12e951a84d9057 *data/galaxy.RData
 3be62a6f8a3812afc761082f3e30305c *data/marketing.RData
 9ec7df18957d3b8fe0e4f4ad5035b25e *data/mixture.example.RData
