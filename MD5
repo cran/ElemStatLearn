@@ -1,4 +1,4 @@
-9a32b17d07c7bf3a01460914a3efb583 *DESCRIPTION
+c47720a34c7205481cf5cc3b10bc7c35 *DESCRIPTION
 32b5a8b410ca7ff8cb20e8225a985ebc *NAMESPACE
 042fa0a84121b006dc8e4daea94307c3 *NEWS
 1c3dc2c73355a3993a93cf908318a1e7 *R/simple.ridge.R
@@ -7,7 +7,7 @@
 0f98c922039bef3204ccdfff9d918696 *data/SAheart.RData
 a3684da3451d34085b9caff35b306806 *data/bone.RData
 ab0048df8c6d71289dcff3f5e25c66f0 *data/countries.RData
-b18247d9d27e7c012908e73b71499df6 *data/datalist
+d7af702ef70ea4b3efe4ac60432a100a *data/datalist
 7151c268c32f53072f12e951a84d9057 *data/galaxy.RData
 3be62a6f8a3812afc761082f3e30305c *data/marketing.RData
 9ec7df18957d3b8fe0e4f4ad5035b25e *data/mixture.example.RData
@@ -32,7 +32,7 @@ a28f9854fa7efd86d44510be09df72d2 *man/countries.Rd
 e988d09c90f9e9d7752fc1e6517b556a *man/galaxy.Rd
 e1ccdef3b301d7980abdad586bf66949 *man/marketing.Rd
 739d92ab4851cecfa9b404c1307f8b9e *man/mixture.example.Rd
-84b508d6a8f382b14f6a96da5197c3dc *man/nci.Rd
+3d6bcc55271e232c4b15874f44689798 *man/nci.Rd
 87ce1dacbe9b521cac53d8a635829ff5 *man/orange10.test.Rd
 b2f2d55ff3a7a7e09303282220509d0d *man/orange10.train.Rd
 a85ee8b4da8305dac87bbc81f85e3d0b *man/orange4.test.Rd

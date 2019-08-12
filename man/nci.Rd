@@ -15,7 +15,10 @@
   ..$ : chr [1:64] "CNS" "CNS" "CNS" "RENAL" ...
 }
 \source{
-  \url{http://genome-www.stanford.edu/nci60/}
+  Originally from
+  \samp{http://genome-www.stanford.edu/nci60/}.
+  Currently via the book's website, 
+  \url{https://web.stanford.edu/~hastie/ElemStatLearn/datasets/nci.data.csv}.
 }
 \examples{
 str(nci)

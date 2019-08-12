@@ -4,9 +4,10 @@ Title: Data Sets, Functions and Examples from the Book: "The Elements
         of Statistical Learning, Data Mining, Inference, and
         Prediction" by Trevor Hastie, Robert Tibshirani and Jerome
         Friedman
-Version: 2015.6.26.1
-Author: Material from the book's webpage, R port and packaging by
-        Kjetil B Halvorsen
+Version: 2015.6.26.2
+Author: Material from the book's webpage
+        (https://web.stanford.edu/~hastie/ElemStatLearn/>),
+        R port and packaging by Kjetil B Halvorsen
 Description: Useful when reading the book above mentioned, in the
         documentation referred to as `the book'.
 Depends: R (>= 2.10.0), stats
@@ -14,10 +15,13 @@ Suggests: gam, splines, MASS, class, leaps, mda, lasso2, lars, boot,
         prim, earth
 LazyData: yes
 LazyDataCompression: xz
-Maintainer: Kjetil B Halvorsen <kjetil1001@gmail.com>
+Maintainer: ORPHANED
 URL: http://www-stat.stanford.edu/~tibs/ElemStatLearn/
 License: GPL (>= 2)
 NeedsCompilation: no
-Packaged: 2019-03-02 12:00:43 UTC; ripley
+Packaged: 2019-08-12 07:16:49 UTC; ripley
 Repository: CRAN
-Date/Publication: 2019-03-02 12:33:53 UTC
+Date/Publication: 2019-08-12 09:20:08
+X-CRAN-Original-Maintainer: Kjetil B Halvorsen <kjetil1001@gmail.com>
+X-CRAN-Comment: Orphaned and corrected on 2019-03-02 as check issues
+        were not corrected despite reminder.
